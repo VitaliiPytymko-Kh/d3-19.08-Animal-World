@@ -239,10 +239,7 @@ void CreateAnimals(IContinent* continent, Herbivore** herbivores, Carnivore** ca
 
       world.MealsHerbivores(herbivoresEurasia, 10);
       world.NutritionCarnivores(carnivoresEurasia, 5, herbivoresEurasia, 10);
-
- 
-
-      return 0;
+  return 0;
 
       
   }
