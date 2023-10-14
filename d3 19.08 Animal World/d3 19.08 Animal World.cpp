@@ -206,16 +206,7 @@ void CreateAnimals(IContinent* continent, Herbivore** herbivores, Carnivore** ca
         carnivores[i] = continent->CreateCarnivore();
     }
 }
-//функции для удаления масивов 
-void DeleteAnimals(Herbivore** herbivores, Carnivore** carnivores, int herbivoreCount, int carnivoreCount)
-{
-    for (int i = 0; i < herbivoreCount; i++) {
-        delete herbivores[i];
-    }
-    for (int i = 0; i < carnivoreCount; i++) {
-        delete carnivores[i];
-    }
-}
+
 
   int main()
   {
@@ -249,14 +240,7 @@ void DeleteAnimals(Herbivore** herbivores, Carnivore** carnivores, int herbivore
       world.MealsHerbivores(herbivoresEurasia, 10);
       world.NutritionCarnivores(carnivoresEurasia, 5, herbivoresEurasia, 10);
 
-      // Освобождение памяти
-      DeleteAnimals(herbivoresAfrica, carnivoresAfrica, 3, 2);
-      DeleteAnimals(herbivoresNorthAmerica, carnivoresNorthAmerica, 5, 3);
-      DeleteAnimals(herbivoresEurasia, carnivoresEurasia, 10, 5);
-
-      delete africa;
-      delete northAmerica;
-      delete eurasia;
+ 
 
       return 0;
 
