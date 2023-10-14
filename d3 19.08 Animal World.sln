@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3 19.08 Animal World", "d3 19.08 Animal World\d3 19.08 Animal World.vcxproj", "{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Debug|x64.ActiveCfg = Debug|x64
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Debug|x64.Build.0 = Debug|x64
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Debug|x86.Build.0 = Debug|Win32
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Release|x64.ActiveCfg = Release|x64
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Release|x64.Build.0 = Release|x64
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Release|x86.ActiveCfg = Release|Win32
+		{9EC5BB3C-A4E4-40B0-843D-456DCF82C391}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1FC375-848E-42E3-A68A-590930DB4DC4}
+	EndGlobalSection
+EndGlobal
